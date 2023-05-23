@@ -1,0 +1,145 @@
+body {
+    background: #0d092e;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+section {
+position: inherit;
+}
+
+.animation-container {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.custom-shape-divider-top-1684872017 {
+text-align: center;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+}
+
+.custom-shape-divider-top-1684872017 svg {
+position: relative;
+display: block;
+width: calc(100% + 1.3px);
+height: 167px;
+}
+
+.custom-shape-divider-top-1684872017 .shape-fill {
+fill: #009fbd;
+}
+
+.custom-shape-divider-bottom-1684869207 {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684869207 svg {
+position: relative;
+display: block;
+width: calc(100% + 1.3px);
+height: 118px;
+}
+
+.custom-shape-divider-bottom-1684869207 .shape-fill {
+fill: #009fbd;
+}
+
+.navbar {
+background: #009fbd;
+padding: 10px;
+display: flex;
+justify-content: center;
+}
+
+.rectangle {
+position: absolute;
+top: 0;
+left: 0;
+width: 15vh; /* Adjust the width as needed */
+height: 100%;
+background: linear-gradient(to bottom, #009fbd 28%, transparent 100%);
+transform-origin: bottom left;
+transform: skewY(-45deg);
+z-index: -1;
+}
+
+.curved-text {
+font-family: "Lobster", cursive;
+font-size: 24px;
+color: #fdf4f5;
+position: absolute;
+left: 50%;
+top: 40px;
+transform: translateX(-50%);
+}
+
+.input-container {
+margin: 35vh auto;
+text-align: center;
+}
+
+.upload-button {
+position: relative;
+display: inline-block;
+padding: 10px 20px;
+font-size: 25px;
+font-family: "Lobster", cursive;
+background-color: #77037b;
+color: #fdf4f5;
+border: none;
+border-radius: 100px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+overflow: hidden;
+}
+
+.upload-button:hover {
+background-color: #009fbd;
+}
+
+.upload-button input[type="file"] {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+cursor: pointer;
+}
+
+.funny--button {
+background-color: #77037b;
+color: #77037b;
+font-size: 35px;
+border-radius: 50%;
+padding: 20px;
+border: none;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+
+.funny--button:hover {
+transform: rotate(360deg);
+background-color: #009fbd;
+}
